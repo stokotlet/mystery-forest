@@ -1,0 +1,30 @@
+{
+  "name": "mystery-forest",
+  "version": "1.0.0",
+  "description": "cli game for metaLamp education",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node ./build/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
+  },
+  "author": "stokotlet@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.10",
+    "eslint": "^9.19.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "globals": "^15.14.0",
+    "jest": "^29.7.0",
+    "prettier": "3.4.2",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.21.0"
+  }
+}
